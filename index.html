@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoTech Garage — Tecnología Automotriz Premium</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="logo" onclick="cargarPagina('pages/inicio.html')">
+            AutoTech Garage
+        </div>
+
+        <nav class="nav-buttons">
+            <button onclick="cargarPagina('pages/inicio.html')">Inicio</button>
+            <button onclick="cargarPagina('pages/servicios.html')">Servicios</button>
+            <button onclick="cargarPagina('pages/planes.html')">Planes</button>
+            <button onclick="cargarPagina('pages/vehiculos.html')">Vehículos</button>
+            <button onclick="cargarPagina('pages/trabajos.html')">Trabajos</button>
+            <button onclick="cargarPagina('pages/nosotros.html')">Nosotros</button>
+            <button onclick="cargarPagina('pages/ai.html')">IA</button>
+            <button class="btn-nav-cta" onclick="cargarPagina('pages/citas.html')">Agendar Cita</button>
+        </nav>
+
+    </header>
+
+    <!-- CONTENIDO DINÁMICO -->
+    <main id="contenido"></main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <button class="btn-primary" onclick="cargarPagina('pages/citas.html')">
+            Contactar Ahora
+        </button>
+        <h3>AutoTech Garage</h3>
+        <p>Tecnología y asistencia automotriz premium &nbsp;·&nbsp; © 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
